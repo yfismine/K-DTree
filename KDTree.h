@@ -109,14 +109,15 @@ namespace K_DIMENSIONAL
 		nullNode->left = nullNode->right = nullNode;
 		root = nullNode;
 		vector<Point<Element, Dimension, DimType>> p;
-		p.push_back({ 'A',{7,2} });
+		//以下为测试输入
+		/*p.push_back({ 'A',{7,2} });
 		p.push_back({ 'B',{5,4} });
 		p.push_back({ 'C',{9,6} });
 		p.push_back({ 'D',{2,3} });
 		p.push_back({ 'E',{4,7} });
 		p.push_back({ 'F',{8,1} });
 		createTree(p);
-		findNearstNode({2,4.5}, 2);
+		findNearstNode({2,4.5}, 2);*/
 	}
 
 	template<typename Element, unsigned Dimension, typename DimType>
